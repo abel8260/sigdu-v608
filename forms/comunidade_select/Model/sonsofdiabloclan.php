@@ -9,7 +9,7 @@ try{
 $user_1= $_SESSION['usuario'];
 $name_1=$_SESSION['char'];
 $id= $_SESSION['id-char'];
-$sql = =$pdo->prepare("INSERT INTO  perfil_clan (Perfil_clan_id, Perfil_nome, Perfil_DONO, Perfil_clan, Perfil_ouvinte, Perfil_tipo, Perfil_mod, Perfil_clan_id_ficha, Perfil_clan_ico) VALUES (NULL, '$name_1', '$user_1', 'sons of diablo', 'S', 'clan', 'mod', $id, '../../../static/braso_ini.png')");
+$sql =$pdo->prepare("INSERT INTO  perfil_clan (Perfil_clan_id, Perfil_nome, Perfil_DONO, Perfil_clan, Perfil_ouvinte, Perfil_tipo, Perfil_mod, Perfil_clan_id_ficha, Perfil_clan_ico) VALUES (NULL, '$name_1', '$user_1', 'sons of diablo', 'S', 'clan', 'mod', $id, '../../../static/braso_ini.png')");
 $sql-> execute();
  
 

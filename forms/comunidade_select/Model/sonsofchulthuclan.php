@@ -42,7 +42,7 @@ $id= $_SESSION['id-char'];
 
 try{
 
-$sql12 = =$pdo->prepare(" INSERT INTO currencies(Currencies_DONO,Currencies_nome,Currencies_gold,Currencies_gem) VALUES('$name_1','$user_1',5000,5)");
+$sql12=$pdo->prepare(" INSERT INTO currencies(Currencies_DONO,Currencies_nome,Currencies_gold,Currencies_gem) VALUES('$name_1','$user_1',5000,5)");
 $sql12-> execute();
  
 
