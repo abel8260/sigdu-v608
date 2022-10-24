@@ -51,12 +51,12 @@ echo '</div>';
 
   echo '<h1>Escolha sua classe</h1>';
 
-  echo '<a  id="img01"  href="../Model/myClass01.php" >';echo '<img src= "../../../static/arqueiro.png">';echo '</img>';echo '</a>'; 
-  echo '<a  id="img02"  href="../Model/myClass02.php" >';echo '<img src= "../../../static/barbaro.png">';echo '</img>';echo '</a>';
-  echo '<a  id="img03"  href="../Model/myClass03.php" >';echo '<img src= "../../../static/guerreiro.png">';echo '</img>';echo '</a>';
-  echo '<a  id="img04"  href="../Model/myClass04.php" >';echo '<img src= "../../../static/mago.png">';echo '</img>';echo '</a>';
-  echo '<a  id="img05"  href="../Model/myClass05.php" >';echo '<img src= "../../../static/necromante.png">';echo '</img>';echo '</a>';
-  echo '<a  id="img06"  href="../Model/myClass06.php" >';echo '<img src= "../../../static/ladino.png">';echo '</img>';echo '</a>';
+  echo '<a  id="img01"  href="../Model/myClass01.php" ><img src= "../../../static/arqueiro.png"></a>'; 
+  echo '<a  id="img02"  href="../Model/myClass02.php" ><img src= "../../../static/barbaro.png"></a>';
+  echo '<a  id="img03"  href="../Model/myClass03.php" ><img src= "../../../static/guerreiro.png"></a>';
+  echo '<a  id="img04"  href="../Model/myClass04.php" ><img src= "../../../static/mago.png"></a>';
+  echo '<a  id="img05"  href="../Model/myClass05.php" ><img src= "../../../static/necromante.png"></a>';
+  echo '<a  id="img06"  href="../Model/myClass06.php" ><img src= "../../../static/ladino.png"></a>';
  
 echo '</body>';
 echo '</html>';}}

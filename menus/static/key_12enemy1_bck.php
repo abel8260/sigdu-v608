@@ -1,7 +1,7 @@
 <?php
 
 session_start(); 
-include('../login-cadastro/conexao.php');
+include('../../login-cadastro/db/conexao.php');
  
 
 

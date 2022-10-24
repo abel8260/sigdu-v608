@@ -20,7 +20,7 @@ class View {
         controls
         loop
         play
-        src="./static/ost/theme.mp3">';
+        src="../static/ost/theme.mp3">';
               echo ' Your browser does not support the';
            echo ' <code>'; echo 'audioecho ';echo'</code>'; echo 'element.';
     echo '</audio>';

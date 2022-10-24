@@ -1,7 +1,7 @@
 <?php
 
 session_start(); 
-include('../login-cadastro/conexao.php');
+include('../../login-cadastro/db/conexao.php');
  
 
 
@@ -192,7 +192,7 @@ $sql20-> execute();
     </audio>
 </figure>
 
-<img src="../img_geral/victory.png" class="victory"/>
+<img src="../../static/victory.png" class="victory"/>
 
 <div >
  <ul >

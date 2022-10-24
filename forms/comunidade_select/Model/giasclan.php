@@ -54,5 +54,4 @@ $sql12 =$pdo->prepare(" INSERT INTO currencies(Currencies_DONO,Currencies_nome,C
 }
 
 
-
-header("location:../keypage/key_24.php"); ?>
+header("location:../../../static/static/key_24.php"); ?>

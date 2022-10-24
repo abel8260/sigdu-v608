@@ -14,19 +14,24 @@ class Model {
         $_SESSION['char'] =$name_1;
 
 
-  
-try {
 
-echo $_SESSION['usuario'];
+
+    
+
+
+try{
+
+  
   $stmt = $pdo->prepare("INSERT INTO personagem(char_nome, char_power, char_user) VALUES( '$name_1', 0, '$user_1')");
   $stmt->execute();
     
 
   echo $stmt->rowCount();
   echo 'new record created successfully';
-  header('location: ../../race_select/View/View.php') ; 
+
+  header('location: ./model_270.php') ; 
 } catch(PDOException $e) {
-  echo 'Error: ' . $e->getMessage();
+  echo 'Error: '.$e->getMessage();
 }}}
 use ge\Model as g;
       $vld = new g();

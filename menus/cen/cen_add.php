@@ -63,9 +63,9 @@
 
 	<body>
 		<div class="links"> 
-			<a class= "menu" href="../keypage/key_24.php">menu</a>
+			<a class= "menu" href="../static/key_24.php">menu</a>
 			<br>
-			<a class= "voltar" href="../keypage/key_24.php">voltar</a>
+			<a class= "voltar" href="../static/key_24.php">voltar</a>
 			<br>
 		</div>
 
@@ -102,7 +102,7 @@
 		</div>
 
 	<?php 
-		include('../login-cadastro/conexao.php');
+		include('../../login-cadastro/db/conexao.php');
 		session_start(); 
 
 
@@ -135,7 +135,7 @@ foreach($result  as  $value ) {
 
 
 
-$stmt2 = $pdo-> prepare( "SELECT * FROM inv_camada  WHERE dono_inv  = '$name_2' AND user_inv = '$name_1' ORDER BY id_inv_cam LIMIT 1 ");
+$stmt2 = $pdo-> prepare( "SELECT * FROM inv_camada  ORDER BY id_inv_cam DESC LIMIT 1 ");
 $stmt2-> execute();
 $result2 = $stmt2-> fetchAll( PDO::FETCH_ASSOC );
 

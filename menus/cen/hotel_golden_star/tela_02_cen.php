@@ -1,9 +1,9 @@
 <?php 
 session_start();
-include('../../login-cadastro/conexao.php');
+include('../../../login-cadastro/db/conexao.php');
  $local = "falando com zumbis" ; 
  $name_1=$_SESSION["char"]; 
- $sql90=$pdo->prepare("INSERT INTO  localidads  ( localidad_id,  char_localidad  ,  localidad_local  ,  localidads_html  ,  localidads_src  ) VALUES(NULL, '$name_1','$local', '../cen/hotel_golden_star/tela_02_cen.php','../img_geral/LAPIDE-SEMINOVA-D.png')");
+ $sql90=$pdo->prepare("INSERT INTO  localidads  ( localidad_id,  char_localidad  ,  localidad_local  ,  localidads_html  ,  localidads_src  ) VALUES(NULL, '$name_1','$local', '../cen/hotel_golden_star/tela_02_cen.php','../../../LAPIDE-SEMINOVA-D.png')");
  $sql90-> execute();
 
 
@@ -16,7 +16,7 @@ include('../../login-cadastro/conexao.php');
 		
 		<style>
 			body{
-    		background-image:url("../../img_geral/PROTOTIPO DESIGN V3/fundo.png");  
+    		background-image:url("../../../static/PROTOTIPO DESIGN V3/fundo.png");  
     	}
            a{
            	text-decoration: none;

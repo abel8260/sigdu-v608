@@ -48,12 +48,12 @@ echo '</div>';
   echo '<h1>Escolha sua raça</h1>';
 
 
-  echo '<a  id="img01" href= "../Model/myRace01.php" >';echo '<img src= "../../../static/dae-1.png">';echo '</a>'; 
-  echo '<a  id="img02" href= "../Model/myRace02.php">';echo '<img src= "../../../static/draco-1.png">';echo '</a>';
-  echo '<a  id="img03" href= "../Model/myRace03.php" >';echo '<img src= "../../../static/elem-1.png">';echo '</a>'; 
-  echo '<a  id="img04" href= "../Model/myRace04.php" >';echo '<img src= "../../../static/feral-1.png">';echo '</a>';
-  echo '<a  id="img05" href= "../Model/myRace05.php" >';echo '<img src= "../../../static/gig-1.png">';echo '</a>';
-  echo '<a  id="img06" href= "../Model/myRace06.php" >';echo '<img src= "../../../static/hum-1.png">';echo '</a>';
+  echo '<a  id="img01" href= "../Model/myRace01.php" ><img src= "../../../static/dae-1.png"></a>'; 
+  echo '<a  id="img02" href= "../Model/myRace02.php"> <img src= "../../../static/draco-1.png"></a>';
+  echo '<a  id="img03" href= "../Model/myRace03.php" ><img src= "../../../static/elem-1.png"></a>'; 
+  echo '<a  id="img04" href= "../Model/myRace04.php" ><img src= "../../../static/feral-1.png"></a>';
+  echo '<a  id="img05" href= "../Model/myRace05.php" ><img src= "../../../static/gig-1.png"></a>';
+  echo '<a  id="img06" href= "../Model/myRace06.php" ><img src= "../../../static/hum-1.png"></a>';
 
   
   

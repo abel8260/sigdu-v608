@@ -213,13 +213,13 @@ h1{
   <p class="letra2" >Nacionalidade:</p>
   <p  id="rc-char" class="letra2 letra3" ><?php
 
-$stmt999 = $pdo-> prepare( "SELECT ficha_race FROM fichasuno  WHERE ficha_dono  = '$dono' order by ficha_id desc LIMIT 1 ");
-$stmt999-> execute();
-$result999 = $stmt999-> fetchAll( PDO::FETCH_ASSOC );
+$stmt9990 = $pdo-> prepare( "SELECT ficha_race FROM fichasuno  WHERE ficha_DONO  = '$dono'  AND ficha_nome = '$char' order by ficha_id ASC LIMIT 1 ");
+$stmt9990-> execute();
+$result9990 = $stmt9990-> fetchAll( PDO::FETCH_ASSOC );
 
-foreach($result999  as  $value999 ) {
+foreach($result9990  as  $value9990 ) {
 
-   echo $value999["ficha_race"];
+   echo $value9990["ficha_race"];
 
 }
 
@@ -266,8 +266,8 @@ foreach($result993  as  $value993 ) {
 <div class="caixa_01" >
   <p class="letra2" >Organzição:</p>
   <p  id="org-char" class="letra2 letra3" > <?php
-
-$stmt993 = $pdo-> prepare( "SELECT perfil_clan FROM perfil_clan  WHERE perfil_dono  = '$dono' LIMIT 1 ");
+$id00 = $_SESSION['id-char'];
+$stmt993 = $pdo-> prepare( "SELECT perfil_clan FROM perfil_clan  WHERE perfil_DONO  = '$dono' AND  Perfil_clan_id_ficha = '$id00' LIMIT 1 ");
 $stmt993-> execute();
 $result993 = $stmt993-> fetchAll( PDO::FETCH_ASSOC );
 

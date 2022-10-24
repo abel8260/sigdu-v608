@@ -115,7 +115,7 @@ button:focus {
 
 
 
-$stmt5= $pdo-> prepare( "SELECT * FROM inv_camada WHERE dono_inv  = '$user' AND user_inv = '$nome' ORDER BY
+$stmt5= $pdo-> prepare( "SELECT * FROM inv_camada ORDER BY
        id_inv_cam DESC LIMIT 1 ");
 $stmt5-> execute();
 $result5 = $stmt5-> fetchAll( PDO::FETCH_ASSOC );

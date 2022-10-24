@@ -1,6 +1,6 @@
 <?php
 session_start(); 
-include("../../login-cadastro/conexao.php"); 
+include("../../../login-cadastro/db/conexao.php"); 
 $user = $_SESSION['char'];
 
 $dono = $_SESSION['usuario']; ?>
@@ -30,7 +30,7 @@ $dono = $_SESSION['usuario']; ?>
 				height:280px;
 			}
              body{
-             	background-image:url("../../img_geral/PROTOTIPO DESIGN V3/fundo.png");
+             	background-image:url("../../../static/PROTOTIPO DESIGN V3/fundo.png");
              }
              a.confirm:link, a.confirm:visited,a.menu:link, a.menu:visited, a.voltar:link, a.voltar:visited {
 			    background-color: #000;
@@ -75,7 +75,7 @@ $dono = $_SESSION['usuario']; ?>
 
 
 <div class="links"> 
-			<a class= "menu" href="../../keypage/key_24.php">menu</a>
+			<a class= "menu" href="../../../menus/static/key_24.php">menu</a>
 			<br>
 			<a class= "voltar" href="tela_01_cen.php">voltar</a>
 			<br>
