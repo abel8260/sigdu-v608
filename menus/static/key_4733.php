@@ -237,11 +237,7 @@ img {
 		
 
 		
-			<img  class="img_cen_box0" src="../../static/drg(1).png" />
-		
-
-	
-			<img  class="img_cen_box0" src="../../static/drg(2).png" />
+			
 			
 		
        
