@@ -55,5 +55,4 @@ $sql12-> execute();
 }
 
 
-
-header("location:../keypage/key_24.php"); ?>
+header("location:../../../menus/char/key_24.php"); ?>
