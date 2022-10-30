@@ -5,7 +5,7 @@
 
 📝 Info:
 
-- Para mais infos leia na pasta read-mes
+- 🔞 contém violência mediana.
 
 ## estrutura :
  - mvc;
