@@ -5,7 +5,7 @@
 
 📝 Info:
 
-- 🔞 contém violência mediana.
+- 🔞 para maiores de 18.
 
 ## estrutura :
  - mvc;
