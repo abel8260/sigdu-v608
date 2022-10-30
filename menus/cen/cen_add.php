@@ -76,7 +76,11 @@
  </p> 
 		</div>
 		<div class="cen_box" >
-			<a href="hotel_golden_star/tela_01_cen.php"> <p class="text_cen_box"> <i>Começar </i> </p></a> 
+			<a href="hotel_golden_star/tela_01_cen.php"> <p class="text_cen_box"> <i>Cenário: sigdu. Começar </i> </p></a> 
+		</div>
+		<br/>
+		<div class="cen_box" >
+			<a href="hotel_boa_vista/andar1.php"> <p class="text_cen_box"> <i>Cenário: tellaron. Começar </i> </p></a> 
 		</div>
 		<br/>
 		<br/>
