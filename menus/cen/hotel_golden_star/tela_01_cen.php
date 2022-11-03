@@ -83,10 +83,7 @@ include('../../../login-cadastro/db/conexao.php');
 		<div class="links"> 
 			<a class= "menu" href="../../keypage/key_24.php">menu</a>
 			<br>
-			<a class= "voltar" href="../cen_add.php">voltar</a>
-			<br>
-			<a class= "voltar" href="tela_01_cen_map.php">Mapa</a>
-			<br>
+			
 		</div>
 
 		<div class="cen_box_title" >
@@ -106,6 +103,10 @@ include('../../../login-cadastro/db/conexao.php');
 			    <p class="text_cen_box"> Ir até a seçao do elevador; </p> 
 		    </div>		
         </a>
-
+        <a href="../ruas_de_sigdu/keypoint_2001.php">
+		    <div class="cen_box" >
+			    <p class="text_cen_box"> sair do prédio; </p> 
+		    </div>		
+        </a>
 	</body>
 </html>
