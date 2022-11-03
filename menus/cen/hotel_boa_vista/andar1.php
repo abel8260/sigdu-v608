@@ -5,7 +5,7 @@ include('../../../login-cadastro/db/conexao.php');
  $name_1=$_SESSION["char"];
 
 
- $sql90=$pdo->prepare("INSERT INTO  localidads  (   char_localidad  ,  localidad_local  ,  localidads_html  ,  localidads_src  ) VALUES( '$name_1','$local', '../cen/hotel_golden_star/andar1.php','../../../LAPIDE-SEMINOVA-D.png')");
+ $sql90=$pdo->prepare("INSERT INTO  localidads  (   char_localidad  ,  localidad_local  ,  localidads_html  ,  localidads_src  ) VALUES( '$name_1','$local', '../cen/hotel_boa_vista/andar1.php','../../../LAPIDE-SEMINOVA-D.png')");
  $sql90-> execute();
 
 
@@ -15,12 +15,12 @@ include('../../../login-cadastro/db/conexao.php');
 andar 1---
 <div class='cen_box' style='padding : 9px' >andar 1---<br></div>
 
-<form action='../../../menus/cen/hotel_golden_star/andar10.html' method='POST'><div class='cen_box' style='padding : 9px' >---<br/>ver sala 1---<br/>normal---<br/>hotel_golden_star---<br/><br/><button class='cen_box' type="submit">escolher</button></div></form>
+<form action='../../../menus/cen/hotel_boa_vista/andar10.html' method='POST'><div class='cen_box' style='padding : 9px' >---<br/>ver sala 1---<br/>normal---<br/>hotel_boa_vista---<br/><br/><button class='cen_box' type="submit">escolher</button></div></form>
 
-<form action='../../../menus/static/key_473.php' method='POST'><div class='cen_box' style='padding : 9px' >---<br/>ver shop free 1---<br/>normal---<br/>hotel_golden_star---<br/><br/><button class='cen_box' type="submit">escolher</button></div></form>
-<form action='../../../menus/static/key_12initial.php' method='POST'><div class='cen_box' style='padding : 9px' >---<br/>ver shop inicial---<br/>normal---<br/>hotel_golden_star---<br/><br/><button class='cen_box' type="submit">escolher</button></div></form>
-<form action='../../../menus/static/key_12enemy1.php' method='POST'><div class='cen_box' style='padding : 9px' >---<br/>ver red 1---<br/>normal---<br/>hotel_golden_star---<br/><br/><button class='cen_box' type="submit">escolher</button></div></form>
-<form action='../../../menus/static/key_12enemy2.php' method='POST'><div class='cen_box' style='padding : 9px' >---<br/>ver redo 1---<br/>normal---<br/>hotel_golden_star---<br/><br/><button class='cen_box' type="submit">escolher</button></div></form>
-<form action='../../../menus/cen/hotel_golden_star/andar10.html' method='POST'><div class='cen_box' style='padding : 9px' >---<br/>ver sala 1---<br/>normal---<br/>hotel_golden_star---<br/><br/><button class='cen_box' type="submit">escolher</button></div></form>
+<form action='../../../menus/static/key_473.php' method='POST'><div class='cen_box' style='padding : 9px' >---<br/>ver shop free 1---<br/>normal---<br/>hotel_boa_vista---<br/><br/><button class='cen_box' type="submit">escolher</button></div></form>
+<form action='../../../menus/static/key_12initial.php' method='POST'><div class='cen_box' style='padding : 9px' >---<br/>ver shop inicial---<br/>normal---<br/>hotel_boa_vista---<br/><br/><button class='cen_box' type="submit">escolher</button></div></form>
+<form action='../../../menus/static/key_12enemy1.php' method='POST'><div class='cen_box' style='padding : 9px' >---<br/>ver red 1---<br/>normal---<br/>hotel_boa_vista---<br/><br/><button class='cen_box' type="submit">escolher</button></div></form>
+<form action='../../../menus/static/key_12enemy2.php' method='POST'><div class='cen_box' style='padding : 9px' >---<br/>ver redo 1---<br/>normal---<br/>hotel_boa_vista---<br/><br/><button class='cen_box' type="submit">escolher</button></div></form>
+<form action='../../../menus/cen/hotel_boa_vista/andar10.html' method='POST'><div class='cen_box' style='padding : 9px' >---<br/>ver sala 1---<br/>normal---<br/>hotel_boa_vista---<br/><br/><button class='cen_box' type="submit">escolher</button></div></form>
 
-<form action='../../../menus/static/key_12fusionboss.php' method='POST'><div class='cen_box' style='padding : 9px' >19---<br/>ver boss finale---<br/>normal---<br/>hotel_golden_star---<br/><br/><button class='cen_box' type="submit">escolher</button></div></form>
+<form action='../../../menus/static/key_12fusionboss.php' method='POST'><div class='cen_box' style='padding : 9px' >19---<br/>ver boss finale---<br/>normal---<br/>hotel_boa_vista---<br/><br/><button class='cen_box' type="submit">escolher</button></div></form>

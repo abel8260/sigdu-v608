@@ -83,6 +83,10 @@
 			<a href="hotel_boa_vista/andar1.php"> <p class="text_cen_box"> <i>Cenário: tellaron. Começar </i> </p></a> 
 		</div>
 		<br/>
+		<div class="cen_box" >
+			<a href="ruas_de_sigdu\keypoint_2001.php"> <p class="text_cen_box"> <i>Cenário: ruas de sigdu. Começar </i> </p></a> 
+		</div>
+		<br/>
 		<br/>
 		<br/>
 		 <figure>
