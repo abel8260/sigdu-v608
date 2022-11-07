@@ -198,7 +198,7 @@ $sql20-> execute();
 
   echo $sql20->rowCount();
   echo 'new record created successfully';
-  /* header('location: ./key_24.php ') ; */
+  header('location: ./key_24.php ') ; 
 } catch(PDOException $e) {
   echo 'Error: ' . $e->getMessage();
 }
