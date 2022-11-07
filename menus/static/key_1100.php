@@ -204,7 +204,7 @@ img.char{
 <br>
 
  
-		<img id="arvore" src="../img_geral/arvore-itens.png" height="620px"/>
+		<img id="arvore" src="../../static/PROTOTIPO DESIGN V3/luz.png" height="620px"/>
     <div id="caixaPrin">
        <?php echo "<button type='button' class='btn btn-outline-secondary btn-lg btn-block  active'>ITENS VOADORES</button>";?>
 		<div id="caixa0">
@@ -515,7 +515,7 @@ foreach($resultado_item9 as  $row_item9 ) {
             <?php echo "<button type='button' class='btn btn-outline-secondary btn-lg btn-block'>calda</button>";?>
             <div id="calda">
               <?php 
-                $result_item8 = $pdo-> prepare("SELECT voador_calda FROM voa_camada  WHERE dono_inv='$name_2' AND  user_inv='$name_1' LIMIT 1");
+                $result_item8 = $pdo-> prepare("SELECT voador_cauda FROM voa_camada  WHERE dono_inv='$name_2' AND  user_inv='$name_1' LIMIT 1");
 $result_item8 -> execute();
 $resultado_item8 = $result_item8 -> fetchAll( PDO::FETCH_ASSOC );
 
@@ -524,7 +524,7 @@ foreach($resultado_item8 as  $row_item8 ) {
 
      
                
-                  echo "<img class='char' src=".$row_item8['voador_calda'].">";}
+                  echo "<img class='char' src=".$row_item8['voador_cauda'].">";}
                   ?>
                          
             </div>

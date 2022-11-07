@@ -24,7 +24,7 @@ include('../../login-cadastro/db/conexao.php');
            <link rel="shortcut icon" href="../img_geral/favicon/favicon_084925/favicon.ico" >
            <link rel="icon" type="image/gif" href="img_geral/favicon/favicon_084925/animated_favicon1.gif" >
            <link rel="stylesheet" href="../../home/View/css/key_23.css">
-           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+           <link rel="stylesheet" href="../../home/View/css/bootstrap.min.css" > 
         <!---->
 
   
