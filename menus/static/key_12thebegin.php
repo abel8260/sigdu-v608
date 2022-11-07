@@ -305,7 +305,7 @@ foreach($resultado_pg as   $row_pg ) {
     
     for($pag_dep = $pagina + 1; $pag_dep <= $pagina + $max_links; $pag_dep++){
       if($pag_dep <= $quantidade_pg){
-        echo "<li class='page-item'><a class='pagination-next' href='key_12thebegin.php?pagina=$pag_dep'>'$pag_dep'</a> ";
+        echo "<li class='page-item'><a class='page-link' href='key_12thebegin.php?pagina=$pag_dep'>$pag_dep</a> </li>";
       }
     }
     

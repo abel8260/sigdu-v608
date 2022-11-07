@@ -513,10 +513,10 @@ foreach($resultado_item9 as  $row_item9 ) {
                   ?>
                         
             </div>
-            <?php echo "<button type='button' class='btn btn-outline-secondary btn-lg btn-block'>calda</button>";?>
+            <?php echo "<button type='button' class='btn btn-outline-secondary btn-lg btn-block'>cauda</button>";?>
             <div id="calda">
               <?php 
-                $result_item8 = $pdo-> prepare("SELECT calda FROM inv_camada  WHERE dono_inv='$name_2' AND  user_inv='$name_1' LIMIT 1");
+                $result_item8 = $pdo-> prepare("SELECT cauda FROM inv_camada  WHERE dono_inv='$name_2' AND  user_inv='$name_1' LIMIT 1");
 $result_item8 -> execute();
 $resultado_item8 = $result_item8 -> fetchAll( PDO::FETCH_ASSOC );
 
@@ -525,7 +525,7 @@ foreach($resultado_item8 as  $row_item8 ) {
 
      
                
-                  echo "<img class='char' src=".$row_item8['calda'].">";}
+                  echo "<img class='char' src=".$row_item8['cauda'].">";}
                   ?>
                          
             </div>
