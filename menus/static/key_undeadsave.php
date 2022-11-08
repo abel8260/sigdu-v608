@@ -3,7 +3,7 @@ session_start();
 
 
 
-include('../login-cadastro/conexao.php');
+include('../.././login-cadastro/db/conexao.php');
 
 $char =$_SESSION["char"]; 
 $dono = $_SESSION["usuario"];
